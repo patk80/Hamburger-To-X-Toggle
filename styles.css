@@ -11,6 +11,7 @@ body {
 .line-container {
     float: right;
     margin: 20px;
+    cursor: pointer;
 }
 
 .line {
@@ -19,6 +20,7 @@ body {
     margin-bottom: 10px;
     background-color: black;
     transition: all 0.1s;
+    border-radius: 5px;
 }
 
 .line-1-active {
