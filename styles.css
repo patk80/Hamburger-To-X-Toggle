@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 233, 211);
+}
+
+.line-container {
+    float: right;
+    margin: 20px;
+}
+
+.line {
+    height: 10px;
+    width: 50px;
+    margin-bottom: 10px;
+    background-color: black;
+    transition: all 0.1s;
+}
+
+.line-1-active {
+    transform: rotate(-45deg) translate(-15px, 15px);
+    background-color: #ff6347;
+}
+
+.line-2-active {
+    opacity: 0;
+}
+
+.line-3-active {
+    transform: rotate(45deg) translate(-12px, -12px);
+    background-color: #ff6347;
+}
